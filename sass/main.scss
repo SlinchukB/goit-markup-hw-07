@@ -1,0 +1,22 @@
+/** @format */
+
+@import "./utils/variables";
+@import "./base/reset";
+@import "./base/common";
+@import "./utils/hidden";
+
+//components
+
+@import "./components/container";
+@import "./components/btm";
+@import "./components/social";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/advantage";
+@import "./layout/about";
+@import "./layout/team";
+@import "./layout/client";
+@import "./layout/footer";
+@import "./layout/portfolio";
+@import "./layout/backdrop";

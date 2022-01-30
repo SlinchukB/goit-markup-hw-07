@@ -1,0 +1,39 @@
+/** @format */
+
+.item {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.advantage-list__text {
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.advantage-list__text-item {
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--second-back-color);
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.advantage-list__text-about {
+  max-width: 270px;
+}
+
+.advantage-list__text-icon {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--third-back-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
