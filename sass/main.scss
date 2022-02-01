@@ -3,13 +3,17 @@
 @import "./utils/variables";
 @import "./base/reset";
 @import "./base/common";
+@import "./base/card-set";
 @import "./utils/hidden";
 
 //components
 
+@import "./components/logo";
 @import "./components/container";
+@import "./components/section";
 @import "./components/btm";
 @import "./components/social";
+@import "./components/backdrop";
 
 @import "./layout/header";
 @import "./layout/hero";
@@ -19,4 +23,3 @@
 @import "./layout/client";
 @import "./layout/footer";
 @import "./layout/portfolio";
-@import "./layout/backdrop";
